@@ -8,7 +8,7 @@ sidebar_position: 3
 2. Swap Subnautica's release build `mono.dll` with dnSpy's patched version that can be debugged:
    1. Download the debug mono dll [here](https://github.com/SubnauticaNitrox/Nitrox/files/11311138/mono-2.0-bdwgc-UNITY-2019.4.36f1.zip).
    2. Navigate to Subnautica's directory. Then go to `/MonoBleedingEdge/EmbedRuntime/`.
-   3. Rename your `mono-2.0-bdwgc.dll` with `mono-2.0-bdwgc-old.dll` to avoid loosing the original one.
+   3. Rename your `mono-2.0-bdwgc.dll` with `mono-2.0-bdwgc-old.dll` to avoid losing the original one.
    4. Swap out `MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll` with the `mono-2.0-bdwgc.dll` from the zip above.
 3. Start up Subnautica and dnSpy.
 4. While on the main menu, go to `Debug > Start Debugging` (or press `F5`) in dnSpy.
